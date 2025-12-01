@@ -8,7 +8,7 @@
   },
   "author": "Le Comptoir Des Pharmacies <webmaster@lecomptoirdespharmacies.fr> (https://www.lecomptoirdespharmacies.fr/)",
   "bin": {
-    "assert-safe-chain": "./bin/assert-safe-chain.sh"
+    "noop": "./bin/noop.sh"
   },
   "files": [
     "bin"
@@ -18,5 +18,8 @@
     "npm",
     "security"
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "safe-chain-test": "0.0.1"
+  }
 }
