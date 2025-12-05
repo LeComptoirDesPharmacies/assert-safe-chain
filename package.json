@@ -11,7 +11,7 @@
     "noop": "bin/check.mjs"
   },
   "files": [
-    "bin",
+    "bin"
   ],
   "keywords": [
     "safe-chain",
