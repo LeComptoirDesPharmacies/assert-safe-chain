@@ -3,7 +3,7 @@
 import { execSync } from 'child_process';
 import path from 'path';
 
-const ALLOWED_BINARIES = ['aikido-pnpm', 'sfw'];
+const ALLOWED_BINARIES = ['aikido-pnpm', 'aikido-yarn', 'aikido-npm', 'aikido-bun', 'sfw'];
 const SCRIPT_EXTENSIONS = /\.(exe|cmd|js|cjs|mjs)$/i;
 const IS_WINDOWS = process.platform === 'win32';
 
@@ -94,6 +94,9 @@ ${RED}│   ERROR: Direct package manager usage is not allowed!           │${R
 ${RED}│                                                                 │${RESET}
 ${RED}│   Please use one of the following instead:                      │${RESET}
 ${RED}│     - aikido-pnpm install                                       │${RESET}
+${RED}│     - aikido-yarn install                                       │${RESET}
+${RED}│     - aikido-npm install                                        │${RESET}
+${RED}│     - aikido-bun install                                        │${RESET}
 ${RED}│     - sfw pnpm install                                          │${RESET}
 ${RED}│                                                                 │${RESET}
 ${RED}╰─────────────────────────────────────────────────────────────────╯${RESET}
