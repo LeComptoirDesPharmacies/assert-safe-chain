@@ -1,6 +1,6 @@
 {
   "name": "@lcdp/assert-safe-chain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Assert that safe-chain npm alias is properly configured",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "security"
   ],
   "license": "Apache-2.0",
-  "dependencies": {
-    "safe-chain-test": "0.0.1-security"
+  "scripts": {
+    "preinstall": "node ./script/preinstall.mjs"
   }
 }
