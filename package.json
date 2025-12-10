@@ -1,6 +1,6 @@
 {
   "name": "@lcdp/assert-safe-chain",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Assert that safe-chain npm alias is properly configured",
   "repository": {
     "type": "git",
