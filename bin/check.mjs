@@ -3,7 +3,7 @@
 import { execSync } from 'child_process';
 import path from 'path';
 
-const ALLOWED_BINARIES = ['aikido-pnpm', 'aikido-yarn', 'aikido-npm', 'aikido-bun', 'sfw'];
+const ALLOWED_BINARIES = ['aikido-pnpm', 'aikido-yarn', 'aikido-npm', 'aikido-bun', 'sfw', 'safe-chain'];
 const SCRIPT_EXTENSIONS = /\.(exe|cmd|js|cjs|mjs)$/i;
 const IS_WINDOWS = process.platform === 'win32';
 
